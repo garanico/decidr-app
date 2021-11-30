@@ -15,6 +15,7 @@ function App() {
       <InputForm 
       listContainer={listContainer}
       setListContainer={setListContainer} />
+      <button onClick={selectItem}>Choose for me</button>
     </div>
   );
 }
