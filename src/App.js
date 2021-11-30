@@ -7,7 +7,7 @@ import InputForm from './components/InputForm';
 //import List from './components/List';
 
 function App() {
-  const [listContainer, setListContainer] = useState(["item 1", "item 2", "item 3"]);
+  const [listContainer, setListContainer] = useState([]);
 
   return (
     <div className="App">
