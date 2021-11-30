@@ -3,11 +3,13 @@ import '../App.css';
 
 
 function List({listContainer}) {
-    
+    const displayList = listContainer.map((item, index) => (
+        <div key={index}>{item}</div>
+    ) )
 
     return (
         <div className="list-container">
-           <p>{listContainer}</p>
+         {displayList}
             
         </div>
     )
