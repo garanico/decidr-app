@@ -12,8 +12,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <InputForm />
-    {listContainer}
+      <InputForm 
+      listContainer={listContainer}
+      setListContainer={setListContainer} />
     </div>
   );
 }
