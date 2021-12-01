@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import InputForm from './components/InputForm';
 import List from './components/List';
+import ChooseButton from './components/ChooseButton';
 
 function App() {
   const [listContainer, setListContainer] = useState([]);
@@ -27,7 +28,12 @@ function App() {
       <List
       listContainer={listContainer} />
 
-      <button onClick={selectItem}>Choose for me</button>
+      <ChooseButton
+      listContainer={listContainer}
+      setListContainer={setListContainer}
+      selectedItem={selectedItem}
+      />
+      {/* <button onClick={selectItem}>Choose for me</button> */}
     </div>
     
   );
