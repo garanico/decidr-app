@@ -9,6 +9,15 @@ import InputForm from './components/InputForm';
 function App() {
   const [listContainer, setListContainer] = useState([]);
 
+  const [selectedItem, setSelectedItem] = useState('');
+
+  const selectItem = () => {
+    const random = Math.floor(Math.random() * listContainer.length);
+    setSelectedItem(listContainer[random]);
+  }
+
+  //console.log('List Container',listContainer);
+  console.log('selected item',selectedItem);
   return (
     <div className="App">
       <Header />
