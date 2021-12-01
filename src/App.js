@@ -6,7 +6,8 @@ import './App.css';
 import Header from './components/Header';
 import InputForm from './components/InputForm';
 import List from './components/List';
-import ChooseButton from './components/ChooseButton';
+//import ChooseButton from './components/ChooseButton';
+import DecisionPage from './components/DecisionPage';
 
 function App() {
   const [listContainer, setListContainer] = useState([]);
@@ -20,24 +21,25 @@ function App() {
 
   //console.log('List Container',listContainer);
   console.log('selected item',selectedItem);
+
   return (
     <HashRouter>
-    <div className="App">
-      <Header />
-      <InputForm 
-      listContainer={listContainer}
-      setListContainer={setListContainer} />
-      <List
-      listContainer={listContainer} />
+      <div className="App">
+          <Header />
+          <InputForm 
+          listContainer={listContainer}
+          setListContainer={setListContainer} />
+          <List
+          listContainer={listContainer} />
+          {/* <ChooseButton
+          listContainer={listContainer}
+          setListContainer={setListContainer}
+          selectedItem={selectedItem}
+          /> */}
 
-      <ChooseButton
-      listContainer={listContainer}
-      setListContainer={setListContainer}
-      selectedItem={selectedItem}
-      />
-
-      {/* <button onClick={selectItem}>Choose for me</button> */}
-    </div>
+          <button onClick={selectItem}>Choose for me
+          </button>
+      </div>
           <Route path="/decision">
             <DecisionPage />
           </Route>

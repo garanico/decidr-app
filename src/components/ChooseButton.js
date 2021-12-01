@@ -1,15 +1,14 @@
-import React from 'react';
-import '../App.css';
+// import React from 'react';
+// import '../App.css';
 
-function ChooseButton({listContainer, setListContainer}) {
-    return (
+// function ChooseButton() {
 
-        <button 
-        className="choose-btn" 
-        onClick={()=> selectItem(setListContainer)}>Choose For Me!
-        </button>
-       
-    )
-}
+//     return (
+//         <button 
+//         className="choose-btn" 
+//         onClick={()=> selectItem()}>Choose For Me!
+//         </button>      
+//     )
+// }
 
-export default ChooseButton
+// export default ChooseButton
