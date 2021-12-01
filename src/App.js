@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 
 //components
@@ -20,6 +21,7 @@ function App() {
   //console.log('List Container',listContainer);
   console.log('selected item',selectedItem);
   return (
+    <HashRouter>
     <div className="App">
       <Header />
       <InputForm 
@@ -36,6 +38,10 @@ function App() {
 
       {/* <button onClick={selectItem}>Choose for me</button> */}
     </div>
+          <Route path="/decision">
+            <DecisionPage />
+          </Route>
+      </HashRouter>
     
   );
 }
