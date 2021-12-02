@@ -5,8 +5,8 @@ function Header() {
 
     return (
         <>
-        <header className="App-header">
-        <h2>decidr.</h2>
+        <header className="header">
+        <h1 className="title">decidr.</h1>
         <p className="tagline">An app for indecisive people.</p>
       </header>
       </>

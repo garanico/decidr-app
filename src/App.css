@@ -1,52 +1,105 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-header {
+.App {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  max-height: 100vh;
+}
+
+.header {
   background-color: #282c34;
-  /* min-height: 100vh; */
-  display: flex;
+  color: white;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.Input-form { 
-  display: flex;
-  
-}
-
-.input-field {
-  margin-right: 10px;
-  height: 30px;
-}
-
-.add-btn {
-  background-color: blue;
-  border-color:blue;
-  border-radius: 5px;
-  border-style: solid;
-  color: white;
-  height: 30px;
-}
-
-.list-container{
-  border-color:red;
-  border-style: solid;
-  align-items: 'center';
-  justify-content: 'flex-start';
-}
-
-.choose-btn{
- 
+  font-size: calc(20px + 2vmin);
+  margin: 3 0 0 0;
 }
 
 .tagline{
-  margin: 0;
+  margin: 0 3 0 0;
+  font-size: calc(5px + 2vmin);
+}
+
+.input { 
+  /* display: flex; */
+  margin: 3 0 0 0;
+  height: 35px;
+  
+}
+.add-btn {
+  background-color: blue;
+  border:blue 5px solid;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
+  margin-left: 5px;
+}
+
+main{
+  overflow: hidden;
+}
+
+footer{
+  height: 50px;
+}
+
+.choose-btn{
+  background-color: blue;
+  border:blue 5px solid;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
+}
+
+.list-container{
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  border:red solid;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+}
+
+
+.list-item{
+  border:chartreuse 5px solid;
+	text-align: left;  
+  width: 250px;
+  list-style: none;
+  margin: 20px;
+  flex-wrap: wrap;
+  word-break: break-all ;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .App {
+    height: 100vh;
+  }
+
+.header {
+  flex: 0 0 auto;
+  
+}
+main{
+  flex: 1 1 auto;
+}
+
+footer{
+  flex: 0 0  auto;
+}
+.choose-btn{
+  border-style: solid;
+}
 }
