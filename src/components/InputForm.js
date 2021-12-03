@@ -21,7 +21,7 @@ function InputForm({ listContainer, setListContainer }) {
             />
            <button 
             type="submit"
-            className="add-btn" 
+            className="add-btn btn" 
             onClick={formSubmit}>Add Choice</button> 
         </form>
     )
