@@ -78,7 +78,6 @@ footer{
   overflow: auto;
   display: flex;
   flex-direction: column;
-  /* border:red solid; */
   text-align: center;
   margin: 0 auto;
   padding: 0;
@@ -103,17 +102,16 @@ footer{
 }
 .answer-parent{
   width: 100vw;
-  height: 100vh;  
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .box{
   display: flex;
   padding: 10px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
   
@@ -152,7 +150,7 @@ footer{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
 
   .App {
     height: 100vh;
@@ -174,4 +172,34 @@ footer{
 .list-item{
   text-align: center;
 }
+.box1{
+  max-height: 500px;
+  max-width: 500px;
 }
+
+.box2{
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.box3{
+  max-height: 300px;
+  max-width: 300px;
+}
+.selected-item{
+  max-height: 230px;
+  max-width: 230px;
+  font-size: 30px;
+}
+.answer-parent{
+  transform: scale(.75, .75);
+}
+}
+
+@media screen and (max-width: 420px) {
+
+.answer-parent{
+  transform: scale(.50, .50);
+}
+}
+

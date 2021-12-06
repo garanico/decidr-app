@@ -28,7 +28,7 @@ function Homepage({ listContainer, setListContainer, setSelectedItem, selectedIt
           <footer>
               
           <Link to={{pathname:"/decision"}}>
-            <button className="choose-btn btn" onClick={selectItem}>Choose for me</button>
+            <button className="choose-btn btn" onClick={selectItem}>Decide for Me</button>
             </Link>
             
           </footer>

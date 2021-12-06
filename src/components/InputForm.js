@@ -6,7 +6,6 @@ function InputForm({ listContainer, setListContainer }) {
     const [newItem, setNewItem] = useState('');
     const formSubmit = (event) => {
         event.preventDefault();
-        //console.log('new item',newItem);
         setListContainer([...listContainer, newItem]);
         setNewItem('');
     }
