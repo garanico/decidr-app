@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/decidr-app/static/css/main.253b396c.chunk.css",
+    "main.css": "/decidr-app/static/css/main.537f4fab.chunk.css",
     "main.js": "/decidr-app/static/js/main.62265e42.chunk.js",
     "main.js.map": "/decidr-app/static/js/main.62265e42.chunk.js.map",
     "runtime-main.js": "/decidr-app/static/js/runtime-main.9430a755.js",
@@ -10,13 +10,13 @@
     "static/js/3.f7475fc9.chunk.js": "/decidr-app/static/js/3.f7475fc9.chunk.js",
     "static/js/3.f7475fc9.chunk.js.map": "/decidr-app/static/js/3.f7475fc9.chunk.js.map",
     "index.html": "/decidr-app/index.html",
-    "static/css/main.253b396c.chunk.css.map": "/decidr-app/static/css/main.253b396c.chunk.css.map",
+    "static/css/main.537f4fab.chunk.css.map": "/decidr-app/static/css/main.537f4fab.chunk.css.map",
     "static/js/2.dfaf6639.chunk.js.LICENSE.txt": "/decidr-app/static/js/2.dfaf6639.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9430a755.js",
     "static/js/2.dfaf6639.chunk.js",
-    "static/css/main.253b396c.chunk.css",
+    "static/css/main.537f4fab.chunk.css",
     "static/js/main.62265e42.chunk.js"
   ]
 }
