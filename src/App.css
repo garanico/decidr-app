@@ -49,8 +49,8 @@
   filter: drop-shadow(1px 1px 1px #193540);
 }
 .add-btn {
-  background-color: #eb6c5D;
-  border-color:#eb6c5D;
+  background-color: #eb8f5d;
+  border-color:#eb8f5d;
   margin-left: 5px;
 }
 
@@ -118,7 +118,7 @@ footer{
 }
 .box1{
   border:#193540 5px solid;
-  background-color: #eb6c5D;
+  background-color: #eb8f5d;
   height: 500px;
   width: 500px;
 }
